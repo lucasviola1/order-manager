@@ -13,7 +13,7 @@ PostgreSQL
 
 💾 Configuração do Banco
 
-Edite a connection string no Program.cs:
+Edite a connection string no Program.cs tanto em OrderApi quanto em OrderWorker:
 
 "Host=localhost;Port=5432;Database=orderdb;Username=postgres;Password=root"
 
@@ -22,13 +22,17 @@ Edite a connection string no Program.cs:
 ▶️ Comandos
 
 cd backend/src/OrderApi
+
 dotnet restore
+
 dotnet run
 
 Para rodar o worker:
 
 cd backend/src/OrderWorker
+
 dotnet restore
+
 dotnet run
 
 💻 Frontend (React + Vite + TailwindCSS)
@@ -42,7 +46,9 @@ npm
 ▶️ Instalação e execução
 
 cd frontend
+
 npm install
+
 npm run dev
 
 Acesse:
