@@ -1,4 +1,4 @@
-🧩 Order Challenge
+🧩 Order Manager
 
 Sistema completo com .NET 9 + PostgreSQL + Worker + React + TailwindCSS, para gerenciamento e acompanhamento de pedidos.
 
