@@ -10,7 +10,7 @@ var host = Host.CreateDefaultBuilder(args)
     .ConfigureServices((context, services) =>
     {
         var conn = context.Configuration.GetConnectionString("DefaultConnection")
-            ?? "Host=localhost;Port=5432;Database=teste;Username=postgres;Password=root";
+            ?? "Host=localhost;Port=5432;Database=orderdb;Username=postgres;Password=root";
 
         services.AddDbContext<OrdersDbContext>(opt => opt.UseNpgsql(conn));
         services.AddSingleton<IMessageQueue, LocalMessageQueue>();

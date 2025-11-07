@@ -21,7 +21,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var conn = builder.Configuration.GetConnectionString("DefaultConnection")
-    ?? "Host=localhost;Port=5432;Database=novoteste;Username=postgres;Password=root";
+    ?? "Host=localhost;Port=5432;Database=orderdb;Username=postgres;Password=root";
 
 builder.Services.AddDbContext<OrdersDbContext>(opt => opt.UseNpgsql(conn));
 builder.Services.AddSingleton<IMessageQueue, LocalMessageQueue>();
