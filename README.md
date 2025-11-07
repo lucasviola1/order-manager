@@ -2,14 +2,6 @@
 
 Sistema completo com .NET 9 + PostgreSQL + Worker + React + TailwindCSS, para gerenciamento e acompanhamento de pedidos.
 
-🚀 Estrutura do Projeto
-
-order-manager/
-├── backend/
-│   ├── OrderApi/
-│   └── OrderWorker/
-└── frontend/
-
 ⚙️ Backend (.NET 9 + PostgreSQL)
 
 🔧 Pré-requisitos
