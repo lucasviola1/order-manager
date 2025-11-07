@@ -4,7 +4,7 @@ Sistema completo com .NET 9 + PostgreSQL + Worker + React + TailwindCSS, para ge
 
 🚀 Estrutura do Projeto
 
-order-challenge/
+order-manager/
 ├── backend/
 │   ├── OrderApi/
 │   └── OrderWorker/
